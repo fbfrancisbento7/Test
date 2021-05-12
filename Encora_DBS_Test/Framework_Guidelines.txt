@@ -1,0 +1,19 @@
+Framework guidelines:
+
+1. The Control_Book has 2 sheets 
+	a.Control_Sheet 
+		The the task to be executed by marking "Yes" in column B of the respective test case.
+	b.Test_Data
+		The Test data required to run the tasks can be entered in this sheet corresponding to each test case.
+
+2.Once the tasks to be run are selected.Save and close the Control_book and start the execution.
+
+3.Results:
+	The Results will be captured in 2 parts:
+	a. Control_Sheet
+		After the execution is complete, the validation steps for each task can be got from the column C of the respective tasks.
+		The Final Result of Pass/Fail will be displayed in Column D of the respective tasks.
+		Column D will be marked as excluded if the task is not executed.
+		
+	b.Results folder
+		All the screenshots based on the validationColu steps will be captured in the results folder under a folder named as the test case +current date and time.
